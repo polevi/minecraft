@@ -1,0 +1,13 @@
+name: TutorialPlugin
+version: 1.0
+main: minecraft.psoftware.ru.TutorialPlugin
+api-version: 1.20
+commands:
+   kit:
+      description: Your description
+      usage: /kit
+      permission: test.kit
+permissions:
+  test.kit:
+    description: Allows kit command
+    default: true
