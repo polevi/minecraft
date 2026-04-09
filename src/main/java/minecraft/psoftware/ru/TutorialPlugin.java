@@ -15,8 +15,6 @@ public class TutorialPlugin extends JavaPlugin  {
         
         this.getCommand("kit").setExecutor(new CommandKit());
         this.getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
-
-        System.out.println("Hehe");
     }
     @Override
     public void onDisable() {

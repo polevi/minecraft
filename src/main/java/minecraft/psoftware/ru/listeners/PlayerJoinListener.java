@@ -8,8 +8,6 @@ public class PlayerJoinListener implements Listener {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        event.setJoinMessage("Welcome to the server !!!");
-
+        event.setJoinMessage("Welcome to the server, " + event.getPlayer().getName());
     }
-
 }
